@@ -2,7 +2,7 @@
 
 This simple Swift package allows you to display text views (like `Text("Hello world!")`) filled with Apple's new iOS 26 Liquid glass, for iOS, macOS, watchOS, tvOS, visionOS, all the main platforms.
 
-![](Readme resources/img2.png)
+![](Readme-resources/img2.png)
 
 ## Advantages
 
@@ -16,12 +16,12 @@ This simple Swift package allows you to display text views (like `Text("Hello wo
 
 ### Previews
 
-![](Readme resources/img2.png)
-![](Readme resources/img3.png)
-![](Readme resources/img4.png)
-![](Readme resources/img5.png)
-![](Readme resources/img6.png)
-![](Readme resources/img7.png)
+![](Readme-resources/img2.png)
+![](Readme-resources/img3.png)
+![](Readme-resources/img4.png)
+![](Readme-resources/img5.png)
+![](Readme-resources/img6.png)
+![](Readme-resources/img7.png)
 
 
 ## Disadvantages
@@ -34,7 +34,7 @@ This simple Swift package allows you to display text views (like `Text("Hello wo
 ## How I made it
 
 It is a relatively straight forward library. Originally I saw the Apple screenshots including the lock screen clock in liquid glass, and wanted to use this, although there is no official API released yet -- thanks again tim cook :-{}.
-![](Readme resources/img.png)
+![](Readme-resources/img.png)
 
 So, I started thinking, how could I implement this myself -- a fun swift challenge! Well, the `glassEffect` modifier can be applied to any views and accepts the type of glass to use, and the *shape* to fill. Liquid glass filled shapes, so I need to convert my text strings to a shape! 
 
